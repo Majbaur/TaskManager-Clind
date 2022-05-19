@@ -28,7 +28,7 @@ const MyItems = () => {
     },[user])
     return (
         <div className='container'>
-            <h2>your Add Items: {addItems.length}</h2>
+            <h2>Your Add Task: {addItems.length}</h2>
             <div  className="row row-cols-1 row-cols-md-3 g-5">
             {
                 addItems.map(addItem => <UserProduct

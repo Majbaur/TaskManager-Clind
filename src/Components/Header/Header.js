@@ -25,13 +25,10 @@ const Header = () =>
             <Navbar collapseOnSelect expand="lg" className='p-3' fixed='top' variant="dark">
                 <Container>
                     <Navbar.Brand as={Link} to="/" className='d-flex align-items-center brand'>
-                        <img height={75} src={logo} className='me-2' alt=""  />
-                        <h4 style={{color:'black'}}>Drems Vehicle</h4>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link style={{color:'black'}} as={Link} to='/home'>Home</Nav.Link>
                             
 
                             {
