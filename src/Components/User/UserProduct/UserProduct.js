@@ -11,7 +11,6 @@ const UserProduct = ({addItem}) => {
     const { _id, taskName , description } = addItem;
 
     const handleDelete = id =>{
-        id.preventDefault();
         const proceed = window.confirm('Are you sure?');
         if(proceed){
             const url = `http://localhost:5000/addedItem/${id}`;
